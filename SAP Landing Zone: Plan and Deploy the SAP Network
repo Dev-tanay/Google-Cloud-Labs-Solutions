@@ -1,7 +1,7 @@
 export Your_Project_Id="Insert your GCP Id here"
 
 gcloud compute networks create xall-vpc--vpc-01 \
-    --description="Please like share & subscribe to quicklab" \
+    --description=XYZ-all VPC network = Standard VPC network - 01" \
     \
     --project=$Your_Project_Id \
     \
@@ -11,7 +11,7 @@ gcloud compute networks create xall-vpc--vpc-01 \
 
 
 gcloud compute networks subnets create xgl-subnet--cerps-bau-nonprd--be1-01 \
-    --description="Please like share & subscribe to quicklab" \
+    --description="XYZ-Global subnet = CERPS-BaU-NonProd - Belgium 1 (GCP) - 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -23,7 +23,7 @@ gcloud compute networks subnets create xgl-subnet--cerps-bau-nonprd--be1-01 \
 
 
 gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--linux--v01 \
-    --description="Please like share & subscribe to quicklab" \
+    --description="xall-vpc--vpc-01 - XYZ-all firewall rule = User access - ALLOW standard linux access - version 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -37,7 +37,7 @@ gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--linux--
 
 
 gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--windows--v01 \
-    --description="I think you guy still subscribe the channel aren't you ?" \
+    --description="xall-vpc--vpc-01 - XYZ-all firewall rule = User access - ALLOW standard windows access - version 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -51,7 +51,7 @@ gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--windows
 
 
 gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--sapgui--v01 \
-    --description="Please comment down if the video is helpfull" \
+    --description="xall-vpc--vpc-01 - XYZ-all firewall rule = User access - ALLOW SAPGUI access - version 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -67,7 +67,7 @@ gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--sapgui-
 
 
 gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--sap-fiori--v01 \
-    --description="IF someone copy this command please give a credit at least guys " \
+    --description="xall-vpc--vpc-01 - XYZ-all firewall rule = User access - ALLOW SAP Fiori access - version 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -83,7 +83,7 @@ gcloud compute firewall-rules create xall-vpc--vpc-01--xall-fw--user--a--sap-fio
 
 
 gcloud compute firewall-rules create xall-vpc--vpc-01--xgl-fw--cerps-bau-dev--a-env--v01 \
-    --description="IF someone copy this command please give a credit at least guys " \
+    --description="xall-vpc--vpc-01 - XYZ-Global firewall rule = CERPS-BaU-Dev - ALLOW environment wide access - version 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -98,7 +98,7 @@ gcloud compute firewall-rules create xall-vpc--vpc-01--xgl-fw--cerps-bau-dev--a-
 
 
 gcloud compute firewall-rules create xall-vpc--vpc-01--xgl-fw--cerps-bau-dev--a-ds4--v01 \
-    --description="IF someone copy this command please give a credit at least guys" \
+    --description="xall-vpc--vpc-01 - XYZ-Global firewall rule = CERPS-BaU-Dev - ALLOW SAP S4 (DS4) system wide access - version 01" \
     \
     --project=$Your_Project_Id \
     --network=xall-vpc--vpc-01 \
@@ -113,7 +113,7 @@ gcloud compute firewall-rules create xall-vpc--vpc-01--xgl-fw--cerps-bau-dev--a-
 
 
 gcloud compute addresses create xgl-ip-address--cerps-bau-dev--dh1--d-cerpshana1 \
-    --description="Help me to reach 5K guys" \
+    --description="XYZ-Global reserved IP address = CERPS-BaU-Dev - SAP HANA 1 (DH1) - d-cerpshana1" \
     \
     --project=$Your_Project_Id \
     --region=us-central1 \
@@ -125,7 +125,7 @@ gcloud compute addresses create xgl-ip-address--cerps-bau-dev--dh1--d-cerpshana1
 
 
 gcloud compute addresses create xgl-ip-address--cerps-bau-dev--ds4--d-cerpss4db \
-    --description="Help me to reach 5K guys" \
+    --description="XYZ-Global reserved IP address = CERPS-BaU-Dev - SAP S4 (DS4) - d-cerpss4db" \
     \
     --project=$Your_Project_Id \
     --region=us-central1 \
@@ -136,7 +136,7 @@ gcloud compute addresses create xgl-ip-address--cerps-bau-dev--ds4--d-cerpss4db 
 
 
 gcloud compute addresses create xgl-ip-address--cerps-bau-dev--ds4--d-cerpss4scs \
-    --description="Help me to reach 5K guys" \
+    --description="XYZ-Global reserved IP address = CERPS-BaU-Dev - SAP S4 (DS4) - d-cerpss4scs" \
     \
     --project=$Your_Project_Id \
     --region=us-central1 \
@@ -148,7 +148,7 @@ gcloud compute addresses create xgl-ip-address--cerps-bau-dev--ds4--d-cerpss4scs
 
 
 gcloud compute addresses create xgl-ip-address--cerps-bau-dev--ds4--d-cerpss4app1 \
-    --description="Help me to reach 5K guys" \
+    --description="XYZ-Global reserved IP address = CERPS-BaU-Dev - SAP S4 (DS4) - d-cerpss4app1" \
     \
     --project=$Your_Project_Id \
     --region=us-central1 \
@@ -160,7 +160,7 @@ gcloud compute addresses create xgl-ip-address--cerps-bau-dev--ds4--d-cerpss4app
 
 
 gcloud compute routers create xall-vpc--vpc-01--xall-router--shared-nat--de1-01 \
-    --description="Help me to reach 5K guys" \
+    --description="xall-vpc--vpc-01 - XYZ-Global router = Shared NAT - Germany 1 (GCP) - 01" \
     \
     --project=$Your_Project_Id \
     --region=us-central1 \
