@@ -1,8 +1,8 @@
 \\ Task 1 \\
 
-=PROPER(B2)
+=PROPER(A2)
 
-=ISEMAIL(E2)
+=ISEMAIL(D2)
 
 Sort sheet A-Z
 
