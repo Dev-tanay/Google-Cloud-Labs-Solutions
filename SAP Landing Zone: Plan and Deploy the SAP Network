@@ -178,3 +178,4 @@ gcloud compute routers nats create xall-vpc--vpc-01--xall-nat-gw--shared-nat--de
     --auto-allocate-nat-external-ips \
     --nat-all-subnet-ip-ranges \
     --enable-logging
+    
