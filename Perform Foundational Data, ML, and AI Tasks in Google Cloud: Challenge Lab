@@ -45,5 +45,4 @@ curl -s -H 'Content-Type: application/json' \
     -d @video-intelligence-request.json  > video.json
     
     
-    
  gsutil cp video.json gs://$DEVSHELL_PROJECT_ID-marking/<changefilename>
