@@ -49,7 +49,6 @@ gcloud config set compute/zone us-east1-b
 export CLUSTER_NAME=
 
 gcloud container clusters get-credentials $CLUSTER_NAME --internal-ip
-
 kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0
 
 kubectl expose deployment hello-server --name orca-hello-service --type LoadBalancer --port 80 --target-port 8080
