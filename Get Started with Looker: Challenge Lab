@@ -33,7 +33,7 @@ view: users_region {
       }
       
       
-// IN "training ecommerce model"  >> LINE 58 //
+// MODELS >> IN "training ecommerce model" >> LINE 58 //
               
       join: users_region {
                          type: left_outer
