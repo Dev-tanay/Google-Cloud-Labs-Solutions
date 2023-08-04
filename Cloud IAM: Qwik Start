@@ -1,9 +1,8 @@
 // Login with username 1 //
 
-
 // In cloudshell //
 
-export USERNAME2=
+export USERNAME2=[paste your USERNAME2 from lab]
 
 
 touch sample.txt
