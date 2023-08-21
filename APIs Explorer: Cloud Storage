@@ -1,0 +1,10 @@
+// Run this in cloudshell //
+
+gsutil mb gs://$DEVSHELL_PROJECT_ID
+gsutil mb gs://$DEVSHELL_PROJECT_ID-2
+curl -o demo-image1.png https://cdn.qwiklabs.com/E4%2BSx10I0HBeOFPB15BFPzf9%2F%2FOK%2Btf7S0Mbn6aQ8fw%3D
+curl -o demo-image2.png https://cdn.qwiklabs.com/Hr8ohUSBSeAiMUJe1J998ydGcTu%2FrF4BUjZ2J%2BbiKps%3D
+curl -o demo-image1-copy.png https://cdn.qwiklabs.com/E4%2BSx10I0HBeOFPB15BFPzf9%2F%2FOK%2Btf7S0Mbn6aQ8fw%3D
+gsutil cp demo-image1.png gs://$DEVSHELL_PROJECT_ID/demo-image1.png
+gsutil cp demo-image2.png gs://$DEVSHELL_PROJECT_ID/demo-image2.png
+gsutil cp demo-image1-copy.png gs://$DEVSHELL_PROJECT_ID-2/demo-image1-copy.png
