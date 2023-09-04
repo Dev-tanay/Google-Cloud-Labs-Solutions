@@ -6,6 +6,7 @@ export MESSAGE=""
 ```
 
 ### Navigation Menu > Compute Engine > VM instance
+
 ### Click ssh downarrow icon > View gcloud command > Run in cloudshell > Paste ` --quiet` with same command 
 ```cmd
 gcloud services enable appengine.googleapis.com
