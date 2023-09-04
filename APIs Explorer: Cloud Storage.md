@@ -1,7 +1,6 @@
 # APIs Explorer: Cloud Storage
 
 ## Run this in cloudshell 
-
 ```cmd gsutil mb gs://$DEVSHELL_PROJECT_ID
 gsutil mb gs://$DEVSHELL_PROJECT_ID-2
 curl -o demo-image1.png https://cdn.qwiklabs.com/E4%2BSx10I0HBeOFPB15BFPzf9%2F%2FOK%2Btf7S0Mbn6aQ8fw%3D
