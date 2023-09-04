@@ -1,7 +1,6 @@
 # APIs Explorer: Qwik Start
 
 ## Run in cloudshell
-
 ```cmd
 export PROJECT_ID=$(gcloud config get-value project)
 gsutil mb -p $PROJECT_ID -c regional -l us-central1 gs://$PROJECT_ID-bucket
