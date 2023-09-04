@@ -1,7 +1,6 @@
 # Analyze Images with the Cloud Vision API: Challenge Lab
 
 ## Run this in cloudshell 
-
 ```cmd
 gcloud alpha services api-keys create --display-name="CloudHustlers" 
 KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=CloudHustlers")
