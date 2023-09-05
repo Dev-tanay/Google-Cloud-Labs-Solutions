@@ -1,3 +1,7 @@
+# BigLake: Qwik Start
+
+## Run this in cloudshell
+```cmd
 bq mk --connection --location=US --project_id=$DEVSHELL_PROJECT_ID \
     --connection_type=CLOUD_RESOURCE my-connection
 SERVICE_ACCOUNT_ID=$(bq show --format=json --connection $DEVSHELL_PROJECT_ID.US.my-connection | jq -r '.cloudResource.serviceAccountId')
@@ -18,3 +22,4 @@ bq mkdef \
 "gs://$DEVSHELL_PROJECT_ID/invoice.csv" > /tmp/tabledef.json
 bq show --schema --format=prettyjson  demo_dataset.external_table > /tmp/schema
 bq update --external_table_definition=/tmp/tabledef.json --schema=/tmp/schema demo_dataset.external_table
+```
