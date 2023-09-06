@@ -1,6 +1,6 @@
 # Entity and Sentiment Analysis with the Natural Language API
 
-## CREATE AN API_KEY > APIs & Services > Credentials > Create Credentials > API key
+## Navigation Menu > APIs & Services > Credentials > Create Credentials > API key > Close
 
 ## Run in cloudshell 
 ```cmd
