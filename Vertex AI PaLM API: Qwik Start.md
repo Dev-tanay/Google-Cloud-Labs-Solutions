@@ -1,6 +1,6 @@
 # Vertex AI PaLM API: Qwik Start
 
-### APIs & Services > APIs & Services > `Vertex AI API` > Enable
+### APIs & Services > Search `Vertex AI API` > Enable
 
 ## Run in Cloudshell
 ```cmd
