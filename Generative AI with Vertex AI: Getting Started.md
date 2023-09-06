@@ -1,11 +1,6 @@
 # Generative AI with Vertex AI: Getting Started
 
-## Open this link
-```cmd
-https://console.cloud.google.com/vertex-ai/workbench/user-managed?
-```
-
-### Open JupyterLab
+### Search `vertex ai` > User-Managed Notebooks > Open JupyterLab
 
 ### Generative-ai > Language > prompts > intro_prompt_design.ipynb (Run each cell one at a time)
 
