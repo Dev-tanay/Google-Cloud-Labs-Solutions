@@ -1,6 +1,6 @@
 # Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API
 
-## CREATE AN API_KEY > APIs & Services > Credentials > Create Credentials>API key
+## Navigation Menu > APIs & Services > Credentials > Create Credentials > API key > Close
 
 ## Run in cloudshell
 ```cmd
