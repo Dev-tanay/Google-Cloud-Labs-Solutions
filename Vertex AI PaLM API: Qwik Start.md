@@ -2,7 +2,7 @@
 
 ### APIs & Services > APIs & Services > `Vertex AI API` > Enable
 
-## Run in Cloudhell
+## Run in Cloudshell
 ```cmd
 MODEL_ID="text-bison"
 PROJECT_ID=$DEVSHELL_PROJECT_ID
