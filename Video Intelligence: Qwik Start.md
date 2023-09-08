@@ -1,3 +1,7 @@
+# Video Intelligence: Qwik Start
+
+## Run in cloudshell
+```cmd
 gcloud services enable videointelligence.googleapis.com
 gcloud iam service-accounts create quickstart
 gcloud iam service-accounts keys create key.json --iam-account quickstart@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com
@@ -13,5 +17,6 @@ cat > request.json <<EOF
 EOF
 export RESPONSE=$(curl -s -H 'Content-Type: application/json' -H 'Authorization: Bearer '$(gcloud auth print-access-token)'' 'https://videointelligence.googleapis.com/v1/videos:annotate' -d @request.json | jq -r '.name')
 curl -s -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer '$(gcloud auth print-access-token)'' \
-    'https://videointelligence.googleapis.com/v1/$RESPONSE'
+-H 'Authorization: Bearer '$(gcloud auth print-access-token)'' \
+"https://videointelligence.googleapis.com/v1/$RESPONSE"
+```
