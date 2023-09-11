@@ -1,8 +1,11 @@
-// In cloudshell //
+# GSP080
 
-export REGION=[paste your REGION from lab]
+## Run in cloudshell
+```cmd
+export REGION=
+```
 
-
+```cmd
 gcloud config set compute/region $REGION
 mkdir gcf_hello_world
 cd gcf_hello_world
@@ -19,3 +22,4 @@ gcloud functions deploy helloWorld \
 --stage-bucket $DEVSHELL_PROJECT_ID \
 --trigger-topic hello_world \
 --runtime nodejs20
+```
