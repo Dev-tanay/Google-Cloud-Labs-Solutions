@@ -1,6 +1,6 @@
 # App Engine: 3 Ways: Challenge Lab
 
-### Put your message from Task 4
+### Select your message from Task 4
 ```cmd
 export MESSAGE=""
 ```
